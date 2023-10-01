@@ -5,12 +5,16 @@ import { setUser } from "../features/login/loginSlice";
 import { Link } from "react-router-dom";
 
 const Navbar = styled.nav`
-    height: 79px;
+     height: 79px;
+    width: 97.5vw;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    background-color: white;
+    z-index: 100;
     & span{
         font-size: 25px;
         margin-right: 10px;
