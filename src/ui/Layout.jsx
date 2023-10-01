@@ -11,7 +11,7 @@ const StyledLayout = styled.div`
 
 const Content = styled.main`
    width:780px ;
-   margin: 20px auto;
+  margin: 100px auto;
 `
 
 export default function Layout(){
